@@ -36,19 +36,12 @@ Edit
 pip install -r requirements.txt
 Dependencies
 Python 3.x
-
 scikit-learn
-
 pandas
-
 numpy
-
 transformers
-
 torch
-
 matplotlib
-
 seaborn
 
 Project Structure
@@ -77,15 +70,10 @@ BERT Classifier: A state-of-the-art transformer-based model fine-tuned for senti
 
 Evaluation Metrics
 The following metrics were used to evaluate the performance of each model:
-
 Accuracy
-
 Precision
-
 Recall
-
 F1-score
-
 AUC
 
 Results

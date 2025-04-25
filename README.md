@@ -1,4 +1,3 @@
-# nlp-sentiment-analysis
 # Sentiment Analysis on IMDb Dataset
 
 ## Overview
@@ -20,34 +19,27 @@ This project performs sentiment analysis on movie reviews from the **IMDb** data
 ## Installation
 
 1. Clone the repository:
-   ```bash
    git clone https://github.com/yourusername/sentiment-analysis-imdb.git
-Navigate to the project directory:
 
-bash
-Copy
-Edit
-cd sentiment-analysis-imdb
-Install the required dependencies:
+2. Navigate to the project directory:
+   cd sentiment-analysis-imdb
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Dependencies
-Python 3.x
-scikit-learn
-pandas
-numpy
-transformers
-torch
-matplotlib
-seaborn
+3. Install the required dependencies:
+   pip install -r requirements.txt
 
-Project Structure
-bash
-Copy
-Edit
+## Dependencies
+
+- Python 3.x
+- scikit-learn
+- pandas
+- numpy
+- transformers
+- torch
+- matplotlib
+- seaborn
+
+## Project Structure
+
 sentiment-analysis-imdb/
 │
 ├── data/
@@ -61,20 +53,26 @@ sentiment-analysis-imdb/
 ├── requirements.txt      # Required Python packages
 ├── README.md             # Project overview and instructions
 └── main.py               # Main script for running sentiment analysis
-Models
-Multinomial Naïve Bayes (MNB): This model uses TF-IDF for feature extraction and applies the Naïve Bayes algorithm for classification.
 
-Random Forest (RF): A robust classifier based on ensemble learning.
+## Models
 
-BERT Classifier: A state-of-the-art transformer-based model fine-tuned for sentiment classification.
+1. **Multinomial Naïve Bayes (MNB)**: This model uses **TF-IDF** for feature extraction and applies the Naïve Bayes algorithm for classification.
+2. **Random Forest (RF)**: A robust classifier based on ensemble learning.
+3. **BERT Classifier**: A state-of-the-art transformer-based model fine-tuned for sentiment classification.
 
-Evaluation Metrics
+## Evaluation Metrics
+
 The following metrics were used to evaluate the performance of each model:
-Accuracy
-Precision
-Recall
-F1-score
-AUC
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-score**
+- **AUC**
 
-Results
-The models were compared using the above metrics, and the results are presented in the results section. The BERT classifier showed the highest performance in terms of accuracy and F1-score, outperforming both Multinomial Naïve Bayes and Random Forest models.
+## Results
+
+The models were compared using the above metrics, and the results are presented in the results section. The **BERT classifier** showed the highest performance in terms of accuracy and F1-score, outperforming both **Multinomial Naïve Bayes** and **Random Forest** models.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

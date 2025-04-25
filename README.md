@@ -38,21 +38,6 @@ This project performs sentiment analysis on movie reviews from the **IMDb** data
 - matplotlib
 - seaborn
 
-## Project Structure
-
-sentiment-analysis-imdb/
-│
-├── data/
-│   └── imdb_reviews.csv  # Dataset containing IMDb reviews with added 'neutral' sentiment
-├── models/
-│   ├── mnb_model.py      # Multinomial Naïve Bayes model implementation
-│   ├── rf_model.py       # Random Forest model implementation
-│   └── bert_model.py     # BERT model implementation
-├── notebooks/
-│   └── exploration.ipynb # Exploratory data analysis (EDA)
-├── requirements.txt      # Required Python packages
-├── README.md             # Project overview and instructions
-└── main.py               # Main script for running sentiment analysis
 
 ## Models
 

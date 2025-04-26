@@ -7,27 +7,15 @@ This project performs sentiment analysis on movie reviews from the **IMDb** data
 - **Random Forest (RF)**
 - **BERT Classifier**
 
-## Table of Contents
-1. [Installation](#installation)
-2. [Dependencies](#dependencies)
-3. [Project Structure](#project-structure)
-4. [Models](#models)
-5. [Evaluation Metrics](#evaluation-metrics)
-6. [Results](#results)
-7. [License](#license)
-
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/sentiment-analysis-imdb.git
+   git clone https://github.com/fai05/NLP-based-Sentiment-Analysis.git
 
 2. Navigate to the project directory:
-   cd sentiment-analysis-imdb
+   cd NLP-based-Sentiment-Analysis
 
 3. Install the required dependencies:
-   pip install -r requirements.txt
-
-## Dependencies
 
 - Python 3.x
 - scikit-learn
@@ -53,11 +41,3 @@ The following metrics were used to evaluate the performance of each model:
 - **Recall**
 - **F1-score**
 - **AUC**
-
-## Results
-
-The models were compared using the above metrics, and the results are presented in the results section. The **BERT classifier** showed the highest performance in terms of accuracy and F1-score, outperforming both **Multinomial Naïve Bayes** and **Random Forest** models.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
